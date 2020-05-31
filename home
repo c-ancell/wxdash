@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WXDash</title>
+    </head>
+    <body>
+        <form action="/lookup">
+            <label for="zipInput">Enter your zipcode:</label>
+            <input type="number" maxlength="5" name="zipCode" />
+            <button type="submit">Go!</button>
+        </form>
+    </body>
+</html>

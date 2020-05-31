@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WXDash</title>
+    </head>
+    <body>
+        <h1>The Temperature Observation</h1>
+        <ul>
+            <li>City: {{.City}}</li>
+            <li>State: {{.State}}</li>
+            <li>Zip: {{.ZipCode}}</li>
+            <li>Nearest Observation Station: {{.Station}}</li>
+            <li>Current Temperature: {{.Temperature}} deg C</li>
+        </ul>
+        <a href="/">Back</a>
+    </body>
+</html>
