@@ -1,0 +1,1 @@
+wxdash is a server written in Go that uses the NOAA/weather.gov API to display current weather information.
